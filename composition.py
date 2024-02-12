@@ -46,7 +46,7 @@ class Person:
         self.leg = leg
 
 
-# Example usage:
+
 person = Person(80, 91)
 leg = Leg(0)
 person.leg_runtime(leg)
