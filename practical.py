@@ -45,8 +45,8 @@ class StudentManagementSystem(Student):
             return 'the student is not studying in our university'
 
 management = StudentManagementSystem('id','name')
-management.add_student("1", "Alice")
-management.add_student("2", "Bob")
+management.add_student("1", "giorgi")
+management.add_student("2", "nino")
 
 
 management.students["1"].add_grade("English", 85)
